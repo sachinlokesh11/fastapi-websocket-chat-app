@@ -55,7 +55,7 @@ This project is a simple chat application built using FastAPI, featuring both gr
 - **Description:** WebSocket endpoint for group chat.
 - **Functionality:**
   - Connects clients to the chat room.
-  - Broadcasts messages to all connected clients.
+  - Broadcast messages to all connected clients.
   - Handles disconnections and notifies other clients.
 
 ### One-to-One Chat
@@ -66,8 +66,6 @@ This project is a simple chat application built using FastAPI, featuring both gr
   - Connects clients to a specific chat room based on client and receiver IDs.
   - Sends messages only to the intended receiver.
   - Handles disconnections and notifies the other client in the conversation.
-
-## Special Thanks
 
 ## Special Thanks
 
